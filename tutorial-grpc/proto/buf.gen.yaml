@@ -1,5 +1,5 @@
 version: v1
-plugins: 
+plugins:
   - name: go
     out: gen/
     opt:
@@ -8,3 +8,8 @@ plugins:
     out: gen/
     opt:
       - paths=source_relative
+  - name: grpc-gateway
+    out: gen/
+    opt:
+      - paths=source_relative
+      - generate_unbound_methods=true
