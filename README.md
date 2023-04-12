@@ -9,9 +9,10 @@
 - pontos positivos:
   - dado definido da API no arquivo ".proto";
   - utiliza protobufs para codificar mensagens;
-  - dados devem ser na ordem que está presente no arquivo ".proto"
+  - dados devem ser na ordem que está presente no arquivo ".proto";
 
 - pontos negativos:
   - setup mais dificil que de uma api rest;
   - ferramentas de teste ainda são imaturas;
-  - menos difundido que o REST.
+  - menos difundido que o REST;
+  
